@@ -1,0 +1,48 @@
+.Cycle-Container{
+    width:190px;
+    border:1px solid black;
+    height:80px;
+}
+html{
+    width:500px;
+    height:400px;
+}
+body{
+    width:100%;
+    height:100%;
+    
+}
+#Work-Container{
+    float:left;
+}
+#Rest-Container{
+    float:right;
+}
+header{
+    text-align: center;
+}
+#Container-Top{
+
+    height:30%;
+}
+.small-button-holder{
+    width:25%;
+    height:100%;
+    border:1px solid black;
+}
+.small-boi{
+    text-align: center;
+    font-size: 90%;
+    width:60%;
+    height:50%;
+}
+#Clock-Container{
+    width:50%;
+    height:25%;
+    text-align: center;
+    margin: auto;
+
+}
+div{
+    border: 1px solid black;
+}
