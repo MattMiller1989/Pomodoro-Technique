@@ -8,20 +8,28 @@
         </header>
         <body>
             <div id="Container-Top">
-                <p>
+                
                 <div id="Work-Container" class="Cycle-Container">
+                    
                     <div class="small-button-holder">
-                        <button class="small-boi">+</button>
-                        <button class="small-boi">-</button>
-                    </div>   
+                        <button class="small-boi" onclick="adjustTime(work,up)">+</button>
+                        <button class="small-boi" onclick="adjustTime(work,down)">-</button>
+                       
+                    </div>
+                    
+                    <div id="Work-Value" class="User-Value">25:00</div>
+                    
                 </div>
                 <div id="Rest-Container" class="Cycle-Container">
+                    
                     <div class="small-button-holder">
-                        <button class="small-boi">+</button>
-                        <button class="small-boi">-</button>
-                    </div>   
-                </div></p>
-                        
+                        <button class="small-boi" onclick="adjustTime(rest,up)">+</button>
+                        <button class="small-boi" onclick="adjustTime(rest,down)">-</button>
+                    </div> 
+                    <div id="Rest-Value" class="User-Value">5:00</div>
+                    
+                </div>
+                       
             </div>
             <div id="Clock-Container">
                 <div id="Status">
@@ -30,6 +38,14 @@
                 <div id="Clock">
                     
                 </div>
+            </div>
+            <div id="Clock-Controls">
+            <div id="button-row"> 
+                <button id="Pause" class="clock-button"></button>
+                <button id="Stop" class="clock-button"></button>
+                <button id="Back" class="clock-button"></button>
+                <button id="Forward" class="clock-button"></button>
+            </div>
             </div>
             
 

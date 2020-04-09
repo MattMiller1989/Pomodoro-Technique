@@ -1,6 +1,6 @@
 .Cycle-Container{
     width:190px;
-    border:1px solid black;
+    /*border:1px solid black;*/
     height:80px;
 }
 html{
@@ -12,23 +12,35 @@ body{
     height:100%;
     
 }
+.User-Value{
+    i
+    text-align: center;
+    margin-top: -40%;
+    float: right;
+    height:100%;
+    width:70%;
+    font-size: 3rem;
+    
+}
 #Work-Container{
+    
     float:left;
 }
 #Rest-Container{
+    
     float:right;
 }
 header{
     text-align: center;
 }
 #Container-Top{
-
+    position: relative;
     height:30%;
 }
 .small-button-holder{
     width:25%;
     height:100%;
-    border:1px solid black;
+   /* border:1px solid black;*/
 }
 .small-boi{
     text-align: center;
@@ -41,8 +53,46 @@ header{
     height:25%;
     text-align: center;
     margin: auto;
+    
 
 }
+#Clock-Controls{
+
+    width:50%;
+    height:8%;
+    text-align: center;
+    margin: auto;
+}
+.clock-button{
+    bottom: 5px;
+    width:22%;
+    text-align: center;
+    margin: auto;
+    height:100%;
+}
+#button-row{
+    height:100%;
+}
+#Pause{
+    background-image: url("CLockControls/16px-Octicons-playback-pause.svg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#Stop{
+    background-image: url("CLockControls/16px-Octicons-primitive-square.svg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#Back{
+    background-image: url("CLockControls/32px-Fast_backward_font_awesome.svg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#Forward{
+    background-image: url("CLockControls/32px-Fast_forward_font_awesome.svg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
 div{
-    border: 1px solid black;
+    /*border: 1px solid black;*/
 }
