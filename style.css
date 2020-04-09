@@ -78,6 +78,11 @@ header{
     background-repeat: no-repeat;
     background-position: center;
 }
+#Pause.Play{
+    background-image: url("CLockControls/16px-Octicons-playback-play.svg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
 #Stop{
     background-image: url("CLockControls/16px-Octicons-primitive-square.svg.png");
     background-repeat: no-repeat;
@@ -93,6 +98,11 @@ header{
     background-repeat: no-repeat;
     background-position: center;
 }
-div{
-    /*border: 1px solid black;*/
+#start-button{
+
+    margin-top: 20px;
+    margin-left: 10px;
 }
+/*div{
+    
+}*/
