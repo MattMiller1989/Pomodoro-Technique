@@ -1,5 +1,5 @@
 .Cycle-Container{
-    width:190px;
+    width:140px;
     /*border:1px solid black;*/
     height:80px;
 }
@@ -13,13 +13,13 @@ body{
     
 }
 .User-Value{
-    i
+    
     text-align: center;
-    margin-top: -40%;
-    float: right;
+    margin-top: -46%;
+    margin-left: 10px;
     height:100%;
     width:70%;
-    font-size: 3rem;
+    font-size: 1.5rem;
     
 }
 #Work-Container{
@@ -32,10 +32,15 @@ body{
 }
 header{
     text-align: center;
+    font-size: x-large
 }
 #Container-Top{
     position: relative;
     height:30%;
+    top: 60px;
+    text-align: center;
+    margin: auto;
+    
 }
 .small-button-holder{
     width:25%;
@@ -45,14 +50,15 @@ header{
 .small-boi{
     text-align: center;
     font-size: 90%;
-    width:60%;
-    height:50%;
+    width:30%;
+    height:20%;
 }
 #Clock-Container{
     width:50%;
     height:25%;
     text-align: center;
     margin: auto;
+    font-size: xx-large;
     
 
 }
@@ -102,7 +108,16 @@ header{
 
     margin-top: 20px;
     margin-left: 10px;
+    background-color: #555555;
+    color:#f2f2f2;
 }
-/*div{
-    
-}*/
+.clock-button{
+    border-radius: 15%;
+    background-color: #e6e6e6;
+}
+body{
+    font-family: Poppins, sans-serif;
+    background-color:#666666 ;
+    color:#f2f2f2;
+   
+}

@@ -3,12 +3,15 @@ var restTime=5*60;
 var countDown;
 var currStatus='Work';
 var isRunning=true;
-
+var hasStarted=false;
 
 function start(){
+    if(!hasStarted){
+    hasStarted=true;
     countDown=workTime;
     
     setInterval(updateClock,1000);
+    }
     
 }
 function updateClock(){
@@ -27,18 +30,7 @@ function updateClock(){
 
     if(isRunning){
         if(countDown>0){
-            /*let seconds=countDown%60;
-            let minutes=parseInt(countDown/60);
-            if(seconds<10){
-                seconds="0"+seconds;
-            }
             
-            var time=minutes+":"+seconds;
-            const clock=document.getElementById("Clock");
-            clock.innerHTML=time;
-
-            const status=document.getElementById("Status");
-            status.innerHTML=currStatus;*/
             countDown--;
         }else{
             switchTimer();
@@ -102,6 +94,7 @@ function adjustTime(timer,dir){
     }
 }
 function pause(){
+    if(hasStarted){
     const butt=document.getElementById("Pause");
     if(isRunning){
         isRunning=false;
@@ -112,10 +105,10 @@ function pause(){
         butt.classList.remove("Play");
     }
 }
+}
 function stop(){
     pause();
-    //workTime=25*60;
-    //restTime=5*60;
+    
     if(currStatus=='Work'){
         countDown=workTime;
     }
@@ -132,6 +125,8 @@ function back(){
     }
 }
 function forward(){
-    switchTimer();
+    if(hasStarted){
+        switchTimer();
+    }
 }
 
